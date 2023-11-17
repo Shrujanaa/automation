@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-07T09:57:47 IST" name="Suite" finished-at="2023-11-07T09:58:01 IST" duration-ms="14167">
+    <groups>
+    </groups>
+    <test started-at="2023-11-07T09:57:47 IST" name="Test1" finished-at="2023-11-07T09:57:57 IST" duration-ms="10267">
+      <class name="testng.parallelexecution1">
+        <test-method signature="hello2()[pri:0, instance:testng.parallelexecution1@2794eab6]" started-at="2023-11-07T09:57:47 IST" name="hello2" finished-at="2023-11-07T09:57:57 IST" duration-ms="10214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello2 -->
+      </class> <!-- testng.parallelexecution1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-11-07T09:57:47 IST" name="Test2" finished-at="2023-11-07T09:58:01 IST" duration-ms="13659">
+      <class name="testng.parallelexecution3">
+        <test-method signature="hello()[pri:0, instance:testng.parallelexecution3@35dab4eb]" started-at="2023-11-07T09:57:47 IST" name="hello" finished-at="2023-11-07T09:58:01 IST" duration-ms="13611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello -->
+      </class> <!-- testng.parallelexecution3 -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-11-07T09:57:47 IST" name="Test3" finished-at="2023-11-07T09:58:01 IST" duration-ms="14167">
+      <class name="testng.parallelexcution">
+        <test-method signature="hello1()[pri:0, instance:testng.parallelexcution@5f049ea1]" started-at="2023-11-07T09:57:47 IST" name="hello1" finished-at="2023-11-07T09:58:01 IST" duration-ms="14120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello1 -->
+      </class> <!-- testng.parallelexcution -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
